@@ -1,0 +1,12 @@
+{"command": "post",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": "",
+        "teacher": ""
+      },
+      "action": {
+          "command": "deleteDepartment"
+      }
+  }
+}

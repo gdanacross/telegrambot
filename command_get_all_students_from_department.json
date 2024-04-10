@@ -1,0 +1,8 @@
+{"command": "get",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": ""
+      }
+  }
+}

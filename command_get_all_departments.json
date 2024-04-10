@@ -1,0 +1,5 @@
+{"command": "get",
+  "content": {
+      "type": "departments"
+  }
+}

@@ -1,0 +1,34 @@
+{"command": "post",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": ""
+      },
+      "action": {
+          "command": "addStudent",
+          "instance":[
+            {
+              "name": "",
+              "surname": ""
+              },
+            {
+              "name": "",
+              "surname": ""
+              },
+            {
+              "name": "",
+              "surname": ""
+              },
+            {
+              "name": "",
+              "surname": ""
+              },
+            {
+              "name": "",
+              "surname": ""
+              }
+          ]
+      }
+  }
+
+}

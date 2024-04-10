@@ -1,0 +1,213 @@
+Class 1:
+1. Batyrsheva Azaliya
+2. Gafarova Karina
+3. Gubaydullina Karina
+4. Dyaminov Daniel
+5. Ziyatdinova Diana
+
+Biology. Aigul Ildusovna.
+
+{"command": "post",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": "Biology",
+        "teacher": "Aigul Ildusovna"
+      },
+      "action": {
+          "command": "addDepartment"
+      }
+  }
+}
+
+{"command": "post",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": "Biology"
+      },
+      "action": {
+          "command": "addStudent",
+          "instance":[
+            {
+              "name": "Azaliya",
+              "surname": "Batyrsheva"
+              },
+            {
+              "name": "Karina",
+              "surname": "Gafarova"
+              },
+            {
+              "name": "Karina",
+              "surname": "Gubaydullina"
+              },
+            {
+              "name": "Daniel",
+              "surname": "Dyaminov"
+              },
+            {
+              "name": "Diana",
+              "surname": "Ziyatdinova"
+              }
+          ]
+      }
+  }
+
+}
+Class 2:
+1. Ayupov Arslan
+2. Valiyev Marat
+3. Ziganshin Emil
+4. Iksanov Bulat
+5. Nurieva Azaliya
+
+Computer Science. Elena Pavlovna
+
+{"command": "post",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": "Computer Science",
+        "teacher": "Elena Pavlovna"
+      },
+      "action": {
+          "command": "addDepartment"
+      }
+  }
+}
+
+{"command": "post",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": "Computer Science"
+      },
+      "action": {
+          "command": "addStudent",
+          "instance":[
+            {
+              "name": "Arslan",
+              "surname": "Ayupov"
+              },
+            {
+              "name": "Marat",
+              "surname": "Valiyev"
+              },
+            {
+              "name": "Bulat",
+              "surname": "Ziganshin"
+              },
+            {
+              "name": "Azaliya",
+              "surname": "Nurieva"
+              },
+            {
+              "name": "Diana",
+              "surname": "Ziyatdinova"
+              }
+          ]
+      }
+  }
+
+}
+
+{"command": "post",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": "Computer Science"
+      },
+      "action": {
+          "command": "deleteStudent",
+          "instance":{
+            "name": "Diana",
+            "surname": "Ziyatdinova"
+          }
+      }
+  }
+}
+
+Class 3:
+1. Agafonova Anastasiya
+2. Bystrnenko Arseniy
+3. Kaftanyuk Darya
+4. Korolev Oleg
+5. Lavrentyev Kostya
+
+German Language. Inna Nikolaevna
+
+{"command": "post",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": "German Language",
+        "teacher": "Inna Nikolaevna"
+      },
+      "action": {
+          "command": "addDepartment"
+      }
+  }
+}
+
+{"command": "post",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": "German Language",
+        "teacher": "Inna Nikolaevna"
+      },
+      "action": {
+          "command": "deleteDepartment"
+      }
+  }
+}
+
+{"command": "post",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": "German Language"
+      },
+      "action": {
+          "command": "addStudent",
+          "instance":[
+            {
+              "name": "Anastasiya",
+              "surname": "Agafonova"
+              },
+            {
+              "name": "Arseniy",
+              "surname": "Bystrnenko"
+              },
+            {
+              "name": "Darya",
+              "surname": "Kaftanyuk"
+              },
+            {
+              "name": "Oleg",
+              "surname": "Korolev"
+              },
+            {
+              "name": "Kostya",
+              "surname": "Lavrentyev"
+              }
+          ]
+      }
+  }
+
+}
+
+{"command": "get",
+  "content": {
+      "type": "departments"
+  }
+}
+
+{"command": "get",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": "Computer Science"
+      }
+  }
+}

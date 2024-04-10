@@ -1,0 +1,15 @@
+{"command": "post",
+  "content": {
+      "type": "department",
+      "instance": {
+        "name": ""
+      },
+      "action": {
+          "command": "deleteStudent",
+          "instance":{
+            "name": "",
+            "surname": ""
+          }
+      }
+  }
+}

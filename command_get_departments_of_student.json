@@ -1,0 +1,9 @@
+{"command": "get",
+  "content": {
+      "type": "student",
+      "instance": {
+        "name": "",
+        "surname": ""
+      }
+  }
+}
